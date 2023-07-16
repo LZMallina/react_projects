@@ -1,0 +1,34 @@
+body{
+    background:black;
+    color:white;
+}
+.container{
+    display:block;
+    margin:auto;
+    width:60vw;
+}
+#timer{
+    border:2px solid white;
+    border-radius:50%;
+    width:300px;
+    height:300px;
+    display:block;
+    margin:auto;
+    padding:50px;
+    font-size:50px;
+}
+.length{
+    margin:0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#break-length{
+    width:200px;
+    height:auto;
+}
+#session-length{
+    width:200px;
+    height:auto;
+}

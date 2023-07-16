@@ -1,0 +1,68 @@
+body{
+  background:burlywood;
+}
+.container{
+  background:gray;
+  display:block;
+  margin:auto;
+  margin-top:50px;
+  border:5px solid black;
+  border-radius:5px;
+  padding:20px;
+  width:45vw;
+  height:85vh;
+}
+.col{
+  font-size:30px;
+  text-align:center;
+  background:#C0C0C0;
+  border:2px solid black;
+  border-radius:5px;
+  padding:10px;
+  cursor:pointer;
+}
+.col:hover{
+background:#F0F0F0;
+}
+
+.row{
+  padding:1px;
+}
+#display{
+  background:black;
+  text-align:right;
+  border-radius:5px;
+  border:2px solid black;
+}
+#input{
+  background:black;
+  color:yellow;
+  padding:10px;
+  text-align:right;
+  border:none;
+}
+#output{
+  background:black;
+  color:yellow;
+  text-align:right;
+  padding:20px;
+  font-size:30px;
+}
+#allClear{
+  background:orangered
+}
+#allClear:hover{
+  background:#F0F0F0;
+}
+#clear{
+  background:orange;
+}
+#clear:hover{
+  background:#F0F0F0;
+}
+#equals{
+  background:#ccccff;
+}
+#equals:hover{
+  background:#F0F0F0;
+}
